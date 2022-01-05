@@ -116,7 +116,7 @@ class ShellListener(threading.Thread):
 def main():
     """Parse arguments and start a shell listener."""
     parser = argparse.ArgumentParser(add_help=True,
-                                     description='Utility that mimics a netcat listener. After',
+                                     description='Utility that mimics a netcat listener.',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument(
         'listen_ip', 
