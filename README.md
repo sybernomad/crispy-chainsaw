@@ -5,7 +5,7 @@ Utility that runs the equivalent of `nc -l`. Can be used as a listener for TCP c
 ```
 usage: shell_listener.py [-h] [--buffer BUFFER] [--connections CONNECTIONS] [--timeout TIMEOUT] [--verbose VERBOSE] listen_ip listen_port
 
-Utility that mimics a netcat listener. After
+Utility that mimics a netcat listener.
 
 positional arguments:
   listen_ip             IP address to listen on.
