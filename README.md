@@ -3,7 +3,7 @@ Utility that runs the equivalent of `nc -l`. Can be used as a listener for TCP c
 
 # Usage
 ```
-usage: shell_listener.py [-h] [--buffer BUFFER] [--connections CONNECTIONS] [--timeout TIMEOUT] [--verbose VERBOSE] listen_ip listen_port
+usage: crispy-chainsaw.py [-h] [--buffer BUFFER] [--connections CONNECTIONS] [--timeout TIMEOUT] [--verbose VERBOSE] listen_ip listen_port
 
 Utility that mimics a netcat listener.
 
